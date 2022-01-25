@@ -113,3 +113,52 @@ body {
 .cancer:hover {
     color: black;
 }
+
+@media only screen and (min-width: 500px) {
+    #card {
+        max-width: 443px;
+        max-height: 620px;
+    }
+
+    .change {
+        margin-top: -4%;
+    }
+
+    .pay .bold {
+        margin-top: 10%;
+    }
+
+    .pay .image {
+        margin-top: 0%;
+    }
+}
+
+@media only screen and (min-width: 590px) {
+    #card {
+        margin-left: 7%;
+    }
+}
+
+@media only screen and (min-width: 650px) {
+    #card {
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (min-width: 725px) {
+    #card {
+        margin-left: 14%;
+    }
+}
+
+@media only screen and (min-width: 870px) {
+    #card {
+        margin-left: 18%;
+    }
+}
+
+@media only screen and (min-width: 100px) {
+    #card {
+        margin-left: 22%;
+    }
+}
